@@ -13,22 +13,9 @@
 }
 
 
-
-
-
-/* -------------------------------------------------------------
-*     For more info on how to use these styles:
-*       http://css-tricks.com/html-for-icon-font-usage/
-*
-*     Use the following markup:
-*       
-*       <h2 id="stats">
-*         <span aria-hidden="true" data-icon="&#x21dd;"></span>
-*         Stats
-*       </h2>
-*
-*/
-
+/* ****************************************************
+ *  Icons with Text
+ ******************************************************/ 
 [data-icon]:before {
   font-family: 'genicons'; /* BYO icon font, mapped smartly */
   content: attr(data-icon);
@@ -39,23 +26,9 @@
   font-family: 'genicons';
 }
 
-
-
-
-
-
-
-
-
-/* ----------------------------------------------------------- 
-*     Standalone icons should be marked-up as follows:
-*
-*       <a href="#rss" class="icon-alone">
-*         <span aria-hidden="true" data-icon="&#x25a8;"></span>
-*         <span class="screen-reader-text">RSS</span>
-*       </a> 
-*/
-
+/* ***********************************************************************
+ *  Icons without Text (special markup for screen-readers)
+ *************************************************************************/ 
 
 .icon-alone {
   display: inline-block; /* Fix for clickability issue in WebKit */

@@ -1,0 +1,67 @@
+
+/*
+*     @font-face logic
+*/
+@font-face {
+    font-family: 'genicons';
+    src: url('/fonts/genicons/files/genicons.eot');
+    src: url('/fonts/genicons/files/genicons.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/genicons/files/genicons.woff') format('woff'),
+         url('/fonts/genicons/files/genicons.svg#geniconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/* -------------------------------------------------------------
+*     For more info on how to use these styles:
+*       http://css-tricks.com/html-for-icon-font-usage/
+*
+*     Use the following markup:
+*       
+*       <h2 id="stats">
+*         <span aria-hidden="true" data-icon="&#x21dd;"></span>
+*         Stats
+*       </h2>
+*
+*/
+
+[data-icon]:before {
+  font-family: 'genicons'; /* BYO icon font, mapped smartly */
+  content: attr(data-icon);
+  speak: none; /* Not to be trusted, but hey. */
+}
+
+.icon-font{
+  font-family: 'genicons';
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------- 
+*     Standalone icons should be marked-up as follows:
+*
+*       <a href="#rss" class="icon-alone">
+*         <span aria-hidden="true" data-icon="&#x25a8;"></span>
+*         <span class="screen-reader-text">RSS</span>
+*       </a> 
+*/
+
+
+.icon-alone {
+  display: inline-block; /* Fix for clickability issue in WebKit */
+}
+.screen-reader-text { /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}

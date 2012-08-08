@@ -1,0 +1,8 @@
+auto: true
+permalink: /:month-:day-:year/:title.html
+
+# Theme settings
+theme:
+
+  # Site name
+  site_name: genicons ∞

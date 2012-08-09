@@ -5,6 +5,7 @@ Common:
   - [E003,    Calendar]
   - [E004,    Edit 1]
   - [E005,    Edit 2]
+  - [E009,    Heart Empty (love/Like)]
   - [E00a,    Heart (love/Like)]
   - [E00b,    Star (favorite)]
   - [E00c,    Bookmark]

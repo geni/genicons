@@ -73,6 +73,7 @@ Media:
   - [E101,    Videos / Movies]
   - [E102,    Documents]
   - [E103,    Gift]
+  - [E104,    Documents Alternative]
 
 Social:
   - [E200,    Facebook]
@@ -81,6 +82,7 @@ Social:
   - [E203,    Google Plus]
   - [E204,    Git]
   - [E205,    Git (Octocat)]
+  - [E206,    Ancestry]
 
 Geni_Specific:
   - [E20a,    Logo]

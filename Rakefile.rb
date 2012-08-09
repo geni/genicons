@@ -5,7 +5,7 @@ namespace :genicons do
   task :compile do
     %x[rm -rf css && rm -rf js && rm index.html]
     %x[cd _jekyll_site && jekyll && cd ..]
-    %x[cp -r _jekyll_site/js . && cp -r _jekyll_site/css . && cp _jekyll_site/index.html .]
+    %x[cp -r _jekyll_site/_site/js . && cp -r _jekyll_site/_site/css . && cp _jekyll_site/_site/index.html .]
   end
 
   desc "Removes compiled/copied site files"

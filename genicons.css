@@ -2,14 +2,12 @@
 /*
 *     @font-face logic
 */
+
 @font-face {
-    font-family: 'genicons';
-    src: url('/fonts/genicons/files/genicons.eot');
-    src: url('/fonts/genicons/files/genicons.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/genicons/files/genicons.woff') format('woff'),
-         url('/fonts/genicons/files/genicons.svg#geniconsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'genicons';
+  src: url('/fonts/genicons/files/genicons.eot');
+  src: local('☺'),
+         url('/fonts/genicons/files/genicons.woff') format('woff'), url('/fonts/genicons/files/genicons.ttf') format('truetype'), url('/fonts/genicons/files/genicons.svg#geniconsRegular') format('svg');
 }
 
 

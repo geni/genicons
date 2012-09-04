@@ -31,12 +31,14 @@ Common:
   - [E025,    Shopping Cart / Buy]
   - [E026,    Like ]
   - [E027,    Dislike]
+  - [E028,   Eye/View]
   - [E02a,    Print]
   - [E02b,    Send / Share]
   - [E030,    Globe / Global / Public]
   - [E031,    Lock / Locked / Private]
   - [E032,    Unlock / Unlocked / Publi]
   - [E033,    Locate / Location / GPS]
+  - [E034,    Notification/Tower]
   - [E03a,    Bar Chart]
   - [E03b,    Pie Chart]
   - [E040,    Up]
@@ -75,6 +77,7 @@ Media:
   - [E102,    Documents]
   - [E103,    Gift]
   - [E104,    Documents Alternative]
+  - [E105,    Single Image/Photo]
 
 Social:
   - [E200,    Facebook]
@@ -106,3 +109,4 @@ Geni_Specific:
   - [E301,    Add Child]
   - [E302,    Add Sibling]
   - [E303,    Add Partner]
+  - [E304,    Merge]

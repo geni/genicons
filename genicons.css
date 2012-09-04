@@ -5,9 +5,11 @@
 
 @font-face {
   font-family: 'genicons';
-  src: url('/fonts/genicons/files/genicons.eot');
+  src: url('/fonts/genicons/files/genicons.eot?09042012');
   src: local('☺'),
-         url('/fonts/genicons/files/genicons.woff') format('woff'), url('/fonts/genicons/files/genicons.ttf') format('truetype'), url('/fonts/genicons/files/genicons.svg#geniconsRegular') format('svg');
+         url('/fonts/genicons/files/genicons.woff?09042012') format('woff'), 
+         url('/fonts/genicons/files/genicons.ttf?09042012') format('truetype'), 
+         url('/fonts/genicons/files/genicons.svg#geniconsRegular?09042012') format('svg');
 }
 
 

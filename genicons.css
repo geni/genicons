@@ -5,10 +5,10 @@
 
 @font-face {
   font-family: 'genicons';
-  src: url('/fonts/genicons/files/genicons.eot?09072012#iefix') format('embedded-opentype'), 
-       url('/fonts/genicons/files/genicons.woff?09072012') format('woff'), 
-       url('/fonts/genicons/files/genicons.ttf?09072012')  format('truetype'),
-       url('/fonts/genicons/files/genicons.svg?09072012#svgFontName') format('svg');
+  src: url('/fonts/genicons/files/genicons.eot?09272012#iefix') format('embedded-opentype'), 
+       url('/fonts/genicons/files/genicons.woff?09272012') format('woff'), 
+       url('/fonts/genicons/files/genicons.ttf?09272012')  format('truetype'),
+       url('/fonts/genicons/files/genicons.svg?09272012#svgFontName') format('svg');
 }
 
 
@@ -38,3 +38,13 @@
   top: -9999px;
   left: -9999px;
 }
+
+
+
+/* ***********************************************************************
+ *  Icons without Text (special markup for screen-readers)
+ *************************************************************************/ 
+
+.blue[data-icon]                  { color: #0064B1; }
+
+.info[data-icon]                  { font-size: 17px; line-height: 10px; cursor: pointer; }

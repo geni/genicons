@@ -51,3 +51,6 @@
 .info[data-icon]                  { font-size: 17px; line-height: 10px; cursor: pointer; }
 .pushpin[data-icon]               { font-size: 20px } 
 .pushpin.pinned[data-icon]        { color: #7ea33a; -webkit-transform: rotate(50deg); -moz-transform: rotate(50deg); -ms-transform: rotate(50deg); -o-transform: rotate(50deg); transform: rotate(50deg); }
+
+.small[data-icon]                 { font-size: 12px }
+.medium[data-icon]                { font-size: 15px }

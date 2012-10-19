@@ -52,8 +52,8 @@
 .info[data-icon]                  { font-size: 17px; line-height: 10px; cursor: pointer; }
 .info[data-icon]:hover            { opacity: 0.8; }
 
-.pushpin                          { overflow: visible; }
-.pushpin[data-icon]               { font-size: 35px; line-height: 3px; padding: 5px; } 
+.pushpin                          { overflow: visible; margin: 3px; }
+.pushpin[data-icon]               { font-size: 30px; line-height: 3px; padding: 2px; } 
 .pushpin.pinned[data-icon]        { color: red; }
 
 .small[data-icon]                 { font-size: 12px }

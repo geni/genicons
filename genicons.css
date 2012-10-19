@@ -5,10 +5,10 @@
 
 @font-face {
   font-family: 'genicons';
-  src: url('/fonts/genicons/files/genicons.eot?09272012#iefix') format('embedded-opentype'), 
-       url('/fonts/genicons/files/genicons.woff?09272012') format('woff'), 
-       url('/fonts/genicons/files/genicons.ttf?09272012')  format('truetype'),
-       url('/fonts/genicons/files/genicons.svg?09272012#svgFontName') format('svg');
+  src: url('/fonts/genicons/files/genicons.eot?10182012#iefix') format('embedded-opentype'), 
+       url('/fonts/genicons/files/genicons.woff?10182012') format('woff'), 
+       url('/fonts/genicons/files/genicons.ttf?10182012')  format('truetype'),
+       url('/fonts/genicons/files/genicons.svg?10182012#svgFontName') format('svg');
 }
 
 
@@ -20,6 +20,7 @@
   font-family: 'genicons'; /* BYO icon font, mapped smartly */
   content: attr(data-icon);
   speak: none; /* Not to be trusted, but hey. */
+  -webkit-font-smoothing: antialiased;
 }
 
 .icon-font{
@@ -50,8 +51,10 @@
 
 .info[data-icon]                  { font-size: 17px; line-height: 10px; cursor: pointer; }
 .info[data-icon]:hover            { opacity: 0.8; }
-.pushpin[data-icon]               { font-size: 30px; line-height: 28px; margin-top: -8px; } 
-.pushpin.pinned[data-icon]        { color: #315F16; }
+
+.pushpin                          { overflow: visible; }
+.pushpin[data-icon]               { font-size: 35px; line-height: 3px; padding: 5px; } 
+.pushpin.pinned[data-icon]        { color: red; }
 
 .small[data-icon]                 { font-size: 12px }
 .medium[data-icon]                { font-size: 15px }

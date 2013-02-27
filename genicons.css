@@ -56,5 +56,8 @@
 .pushpin[data-icon]               { font-size: 30px; line-height: 3px; padding: 2px; } 
 .pushpin.pinned[data-icon]        { color: red; }
 
+.padlock                          { color: #666; }
+.padlock.edit-profile             { margin-top: -2px; }
+
 .small[data-icon]                 { font-size: 12px }
 .medium[data-icon]                { font-size: 15px }

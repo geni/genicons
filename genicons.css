@@ -16,11 +16,14 @@
 /* ****************************************************
  *  Icons with Text
  ******************************************************/ 
-[data-icon]:before {
+[data-icon]:before, [data-genicon]:before{
   font-family: 'genicons'; /* BYO icon font, mapped smartly */
-  content: attr(data-icon);
   speak: none; /* Not to be trusted, but hey. */
   -webkit-font-smoothing: antialiased;
+}
+
+[data-icon]:before {
+  content: attr(data-icon);
 }
 
 .icon-font{
@@ -39,6 +42,124 @@
   top: -9999px;
   left: -9999px;
 }
+
+/* ***********************************************************************
+ *  Named Icons
+ *************************************************************************/
+[data-genicon="home"]:before                   { content: "\e000"; }
+[data-genicon="search"]:before                 { content: "\e001"; }
+[data-genicon="search-reverse"]:before         { content: "\e308" }
+[data-genicon="message"]:before                { content: "\e002"; }
+[data-genicon="calendar"]:before               { content: "\e003"; }
+[data-genicon="edit"]:before                   { content: "\e004" }
+[data-genicon="edit-alt"]:before               { content: "\e005" }
+[data-genicon="love"]:before                   { content: "\e009" }
+[data-genicon="love-alt"]:before               { content: "\e00a" }
+[data-genicon="star"]:before                   { content: "\e00b" }
+[data-genicon="bookmark"]:before               { content: "\e00c" }
+[data-genicon="flag"]:before                   { content: "\e00d" }
+[data-genicon="discussion"]:before             { content: "\e00e" }
+[data-genicon="discussion-alt"]:before         { content: "\e00f" }
+[data-genicon="profile"]:before                { content: "\e010" }
+[data-genicon="person"]:before                 { content: "\e011" }
+[data-genicon="people"]:before                 { content: "\e012" }
+[data-genicon="person-add"]:before             { content: "\e013" }
+[data-genicon="person-settings"]:before        { content: "\e218" }
+[data-genicon="nav-square"]:before             { content: "\e014" }
+[data-genicon="nav-list"]:before               { content: "\e015" }
+[data-genicon="check"]:before                  { content: "\e016" }
+[data-genicon="group"]:before                  { content: "\e017" }
+[data-genicon="settings"]:before               { content: "\e01a" }
+[data-genicon="attachment"]:before             { content: "\e01b" }
+[data-genicon="alert"]:before                  { content: "\e01c" }
+[data-genicon="warning"]:before                { content: "\e01d" }
+[data-genicon="pin"]:before                    { content: "\e020" }
+[data-genicon="unpin"]:before                  { content: "\e029" }
+[data-genicon="tag"]:before                    { content: "\e021" }
+[data-genicon="tags"]:before                   { content: "\e022" }
+[data-genicon="delete"]:before                 { content: "\e023" }
+[data-genicon="no"]:before                     { content: "\e024" }
+[data-genicon="shopping-cart"]:before          { content: "\e025" }
+[data-genicon="like"]:before                   { content: "\e026" }
+[data-genicon="dislike"]:before                { content: "\e027" }
+[data-genicon="view"]:before                   { content: "\e028" }
+[data-genicon="hide"]:before                   { content: "\e30f" }
+[data-genicon="print"]:before                  { content: "\e02a" }
+[data-genicon="share"]:before                  { content: "\e02b" }
+[data-genicon="world"]:before                  { content: "\e030" }
+[data-genicon="lock"]:before                   { content: "\e031" }
+[data-genicon="unlock"]:before                 { content: "\e032" }
+[data-genicon="location"]:before               { content: "\e033" }
+[data-genicon="broadcast"]:before              { content: "\e034" }
+[data-genicon="graph-bar"]:before              { content: "\e03a" }
+[data-genicon="graph-pie"]:before              { content: "\e03b" }
+[data-genicon="arrow-1-up"]:before             { content: "\e040" }
+[data-genicon="arrow-1-down"]:before           { content: "\e041" }
+[data-genicon="arrow-1-right"]:before          { content: "\e042" }
+[data-genicon="arrow-1-left"]:before           { content: "\e043" }
+[data-genicon="arrow-2-up"]:before             { content: "\e04a" }
+[data-genicon="arrow-2-down"]:before           { content: "\e04b" }
+[data-genicon="arrow-2-right"]:before          { content: "\e04c" }
+[data-genicon="arrow-2-left"]:before           { content: "\e04d" }
+[data-genicon="arrow-3-up"]:before             { content: "\e30a" }
+[data-genicon="arrow-3-down"]:before           { content: "\e30b" }
+[data-genicon="arrow-3-right"]:before          { content: "\e30c" }
+[data-genicon="arrow-3-left"]:before           { content: "\e30d" }
+[data-genicon="contract"]:before               { content: "\e044" }
+[data-genicon="fullscreen"]:before             { content: "\e047" }
+[data-genicon="zoom-in"]:before                { content: "\e045" }
+[data-genicon="zoom-out"]:before               { content: "\e046" }
+[data-genicon="upload"]:before                 { content: "\e051" }
+[data-genicon="download"]:before               { content: "\e052" }
+[data-genicon="cloud"]:before                  { content: "\e053" }
+[data-genicon="plus"]:before                   { content: "\e05a" }
+[data-genicon="minus"]:before                  { content: "\e05b" }
+[data-genicon="close"]:before                  { content: "\e05c" }
+[data-genicon="help"]:before                   { content: "\e05d" }
+[data-genicon="info"]:before                   { content: "\e05e" }
+[data-genicon="rss"]:before                    { content: "\e05f" }
+[data-genicon="smartphone"]:before             { content: "\e060" }
+[data-genicon="tablet"]:before                 { content: "\e061" }
+[data-genicon="code"]:before                   { content: "\e06a" }
+[data-genicon="quote"]:before                  { content: "\e06b" }
+[data-genicon="keyboard"]:before               { content: "\e06c" }
+[data-genicon="dot-1"]:before                  { content: "\e070" }
+[data-genicon="dot-2"]:before                  { content: "\e071" }
+[data-genicon="dot-3"]:before                  { content: "\e072" }
+[data-genicon="image"]:before                  { content: "\e105" }
+[data-genicon="images"]:before                 { content: "\e100" }
+[data-genicon="video"]:before                  { content: "\e101" }
+[data-genicon="documents"]:before              { content: "\e102" }
+[data-genicon="gift"]:before                   { content: "\e103" }
+[data-genicon="tree-match"]:before             { content: "\e309" }
+[data-genicon="smart-match"]:before            { content: "\e306" }
+[data-genicon="record-match"]:before           { content: "\e104" }
+[data-genicon="facebook"]:before               { content: "\e200" }
+[data-genicon="twitter"]:before                { content: "\e201" }
+[data-genicon="vimeo"]:before                  { content: "\e202" }
+[data-genicon="google-plus"]:before            { content: "\e203" }
+[data-genicon="github"]:before                 { content: "\e204" }
+[data-genicon="github-alt"]:before             { content: "\e205" }
+[data-genicon="ancestry"]:before               { content: "\e206" }
+[data-genicon="birthday"]:before               { content: "\e20f" }
+[data-genicon="geni"]:before                   { content: "\e20a" }
+[data-genicon="man"]:before                    { content: "\e20b" }
+[data-genicon="woman"]:before                  { content: "\e20c" }
+[data-genicon="baby"]:before                   { content: "\e20d" }
+[data-genicon="surname"]:before                { content: "\e216" }
+[data-genicon="tree-v"]:before                 { content: "\e210" }
+[data-genicon="tree-h"]:before                 { content: "\e211" }
+[data-genicon="tree-top"]:before               { content: "\e212" }
+[data-genicon="tree-world"]:before             { content: "\e217" }
+[data-genicon="projects"]:before               { content: "\e219" }
+[data-genicon="tree-parent"]:before            { content: "\e300" }
+[data-genicon="tree-children"]:before          { content: "\e301" }
+[data-genicon="tree-child"]:before             { content: "\e302" }
+[data-genicon="tree-sibling"]:before           { content: "\e303" }
+[data-genicon="back-arrows"]:before            { content: "\e304" }
+[data-genicon="tree-real"]:before              { content: "\e305" }
+[data-genicon="converge"]:before               { content: "\e307" }
+[data-genicon="secure"]:before                 { content: "\e30e" }
 
 
 

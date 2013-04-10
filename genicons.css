@@ -167,18 +167,18 @@
  *  Customizations
  *************************************************************************/ 
 
-.blue[data-icon]                  { color: #0064B1; }
-.pushpin-green[data-icon]         { color: #5c8b3c;  } 
+.blue[data-icon], .blue[data-genicon]                   { color: #0064B1; }
+.pushpin-green[data-icon]                               { color: #5c8b3c;  } 
 
-.info[data-icon]                  { font-size: 17px; line-height: 10px; cursor: pointer; }
-.info[data-icon]:hover            { opacity: 0.8; }
+.info[data-icon], .info[data-genicon]                   { font-size: 17px; line-height: 10px; cursor: pointer; }
+.info[data-icon]:hover, .info:hover[data-genicon]       { opacity: 0.8; }
 
-.pushpin                          { overflow: visible; margin: 3px; }
-.pushpin[data-icon]               { font-size: 30px; line-height: 3px; padding: 2px; } 
-.pushpin.pinned[data-icon]        { color: red; }
+.pushpin                                                { overflow: visible; margin: 3px; }
+.pushpin[data-icon]                                     { font-size: 30px; line-height: 3px; padding: 2px; } 
+.pushpin.pinned[data-icon]                              { color: red; }
 
-.padlock                          { color: #666; }
-.padlock.edit-profile             { margin-top: -2px; }
+.padlock                              { color: #666; }
+.padlock.edit-profile                 { margin-top: -2px; }
 
-.small[data-icon]                 { font-size: 12px }
-.medium[data-icon]                { font-size: 15px }
+.small[data-icon]                     { font-size: 12px }
+.medium[data-icon]                    { font-size: 15px }

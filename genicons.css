@@ -141,6 +141,8 @@
 [data-genicon="github"]:before                 { content: "\e204" }
 [data-genicon="github-alt"]:before             { content: "\e205" }
 [data-genicon="ancestry"]:before               { content: "\e206" }
+[data-genicon="myheritage"]:before             { content: "\e207" }
+[data-genicon="google"]:before                 { content: "\e208" }
 [data-genicon="birthday"]:before               { content: "\e20f" }
 [data-genicon="geni"]:before                   { content: "\e20a" }
 [data-genicon="man"]:before                    { content: "\e20b" }

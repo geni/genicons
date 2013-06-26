@@ -102,8 +102,8 @@
 [data-genicon="arrow-2-right"]:before          { content: "\e04c" }
 [data-genicon="arrow-2-left"]:before           { content: "\e04d" }
 [data-genicon="arrow-3-up"]:before             { content: "\e30a" }
-[data-genicon="arrow-3-down"]:before           { content: "\e30b" }
-[data-genicon="arrow-3-right"]:before          { content: "\e30c" }
+[data-genicon="arrow-3-down"]:before           { content: "\e30c" }
+[data-genicon="arrow-3-right"]:before          { content: "\e30b" }
 [data-genicon="arrow-3-left"]:before           { content: "\e30d" }
 [data-genicon="contract"]:before               { content: "\e044" }
 [data-genicon="fullscreen"]:before             { content: "\e047" }

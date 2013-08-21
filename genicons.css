@@ -5,10 +5,14 @@
 
 @font-face {
   font-family: 'genicons';
-  src: url('/fonts/genicons/files/genicons.eot?04232013#iefix') format('embedded-opentype'), 
-       url('/fonts/genicons/files/genicons.woff?04232013') format('woff'), 
-       url('/fonts/genicons/files/genicons.ttf?04232013')  format('truetype'),
-       url('/fonts/genicons/files/genicons.svg?04232013#svgFontName') format('svg');
+  src: url('/fonts/genicons/files/genicons.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/genicons/files/genicons.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/genicons/files/genicons.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/genicons/files/genicons.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/genicons/files/genicons.svg#7fdbe7cb2c75998f22e595bc0a1d3c52') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
 }
 
 
@@ -162,6 +166,7 @@
 [data-genicon="tree-real"]:before              { content: "\e305" }
 [data-genicon="converge"]:before               { content: "\e307" }
 [data-genicon="secure"]:before                 { content: "\e30e" }
+[data-genicon="close-alt"]:before              { content: "\e310" }
 
 
 

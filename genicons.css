@@ -20,13 +20,13 @@
 /* ****************************************************
  *  Icons with Text
  ******************************************************/ 
-[data-icon]:before, [data-genicon]:before{
+[data-icon]:before, [data-genicon]:before [data-icon]:after, [data-genicon]:after {
   font-family: 'genicons'; /* BYO icon font, mapped smartly */
   speak: none; /* Not to be trusted, but hey. */
   -webkit-font-smoothing: antialiased;
 }
 
-[data-icon]:before {
+[data-icon]:before [data-icon]:after {
   content: attr(data-icon);
 }
 
@@ -94,6 +94,7 @@
 [data-genicon="lock"]:before                   { content: "\e031" }
 [data-genicon="unlock"]:before                 { content: "\e032" }
 [data-genicon="location"]:before               { content: "\e033" }
+[data-genicon="location-after"]:after          { content: "\e033" }
 [data-genicon="broadcast"]:before              { content: "\e034" }
 [data-genicon="graph-bar"]:before              { content: "\e03a" }
 [data-genicon="graph-pie"]:before              { content: "\e03b" }

@@ -19,14 +19,17 @@
 
 /* ****************************************************
  *  Icons with Text
- ******************************************************/ 
-[data-icon]:before, [data-genicon]:before [data-icon]:after, [data-genicon]:after {
+ *    NOTE: only the genicons can after "after" icons
+ *          in order to prevent accidentally getting
+ *          both before and after (double icons)
+ ******************************************************/
+[data-icon]:before, [data-genicon]:before, [data-genicon]:after {
   font-family: 'genicons'; /* BYO icon font, mapped smartly */
   speak: none; /* Not to be trusted, but hey. */
   -webkit-font-smoothing: antialiased;
 }
 
-[data-icon]:before [data-icon]:after {
+[data-icon]:before {
   content: attr(data-icon);
 }
 

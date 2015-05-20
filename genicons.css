@@ -19,11 +19,12 @@
 
 /* ****************************************************
  *  Icons with Text
+<<<<<<< Updated upstream
  *    NOTE: only the genicons can after "after" icons
  *          in order to prevent accidentally getting
  *          both before and after (double icons)
  ******************************************************/
-[data-icon]:before, [data-genicon]:before, [data-genicon]:after {
+[data-icon]:before, [data-genicon]:before, [data-icon]:after, [data-genicon]:after {
   font-family: 'genicons'; /* BYO icon font, mapped smartly */
   speak: none; /* Not to be trusted, but hey. */
   -webkit-font-smoothing: antialiased;
